@@ -5,7 +5,7 @@ const CATEGORIES_DATA = {
     title: "COMBOS",
     items: [
       {
-        id: 1,
+        id: 1, 
         name: "Combo 1",
         imageUrl: "",
         price: 154,
@@ -76,7 +76,7 @@ const CATEGORIES_DATA = {
   friedChicken: {
     id: 3,
     imageUrl: "",
-    title: "Fried Chicken",
+    title: "FRIED CHICKEN",
     items: [
       {
         id: 1,

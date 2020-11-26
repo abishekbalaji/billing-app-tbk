@@ -4,11 +4,11 @@ const INITIAL_STATE = {
   categoriesList: CATEGORIES_DATA,
 };
 
-const CategoriesReducer = (state = INITIAL_STATE, action) => {
+const categoriesReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     default:
       return state;
   }
 };
 
-export default CategoriesReducer;
+export default categoriesReducer;
