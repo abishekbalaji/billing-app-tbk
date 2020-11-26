@@ -6,9 +6,9 @@ export const HeaderContainer = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
   background-color: #4695D4;
-  border-radius: 0 0 20% 20%;
+  /* border-radius: 0 0 20% 20%; */
 `;
 
 export const LogoContainer = styled(Link)`

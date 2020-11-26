@@ -2,6 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
+import "./category-item.styles.scss";
+
 import { selectCategoriesList } from "../../../redux/categories/categories.selectors";
 import { displayItems } from "../../../redux/items-display/items.actions";
 
@@ -17,8 +19,8 @@ class CategoryItem extends React.Component {
     const { name, title } = this.props;
     return (
       <div>
-        <button onClick={this.handleClick} name={name} >
-          {title}
+        <button onClick={this.handleClick} name={name} className="categoryBtn">
+          {title} <span className="arrow">&#10095;</span>
         </button>
       </div>
     );

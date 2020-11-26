@@ -1,0 +1,36 @@
+.categoryBtn {
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  text-align: left;
+  background-color: black;
+  // background-color: black;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+  &:hover,
+  &:focus {
+    background-color: white;
+    color: black;
+    // border-top-right-radius: 10%;
+    // border-bottom-right-radius: 10%;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  &:hover .arrow {
+    color: black;
+    display: block;
+  }
+
+  &:focus .arrow {
+    color: black;
+    display: block;
+  }
+}
